@@ -42,7 +42,7 @@
 
 
   --metrology-round-corner-small: 0;
-  --metrology-round-corner-medium: 4px; /* 0 for the sharp Metro experience. 4px for a more moderate Fluent. */
+  --metrology-round-corner-medium: 75px 75px; /* 0 for the sharp Metro experience. 4px for a more moderate Fluent. */
 
   --metrology-favorites-size: 48px;
 
@@ -1318,4 +1318,8 @@ select {
   border-radius: var(--metrology-round-corner-medium);
   padding: 8px 12px 12px 12px !important;
   background-color: hsl(var(--metrology-gray-2));
+}
+
+.mx_EventTile_messageOut .mx_EventTile_reactionsContainer {
+    background-color: transparent;
 }
