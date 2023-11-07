@@ -1,6 +1,6 @@
 
 :root {
-  --metrology-hue: 335; /* Enter values between 0 and 359 to change the color of the theme. */
+  --metrology-hue: 212; /* Enter values between 0 and 359 to change the color of the theme. */
 
   --metrology-accent: var(--metrology-hue), 100%, 38%;
   --metrology-highlight: var(--metrology-hue), 100%, 60%;
